@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+    
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #1f2124;
+  font-family: 'Oswald', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1200px;
+  height: 1024px;
+  background: url(../images/bg-large.png) no-repeat center center/cover;
+  padding: 60px 0;
+}
+/* basic css end */
+
+/* common css start */
+.sec-h2 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.sec-h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #748f9e;
+}
+
+.my-btn {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  background: #10a2ef;
+  padding: 10px 60px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/*// end of common css */
+
+/* main css start */
+
+/* === header part start === */
+.header .logo {
+  max-width: 300px;
+  margin-left: 100px;
+}
+/* ===//end of header part === */
+
+/* === diposit-btn part start === */
+.diposit-btn {
+  font-family: 'Roboto Slab', serif;
+  font-size: 43px;
+  font-weight: 900;
+  color: #fff;
+  width: 300px;
+  height: 80px;
+  padding: 0px;
+  background: url(../images/button-bg.png) no-repeat center center/cover;
+  display: block;
+  margin-left: 100px;
+  padding-top: 5px;
+  margin-top: 695px;
+  border-radius: 20px;
+}
+/* ===//end of diposit-btn part === */
+
+/* === footer part start === */
+.footer {
+  background: url(../images/footer-bg.png) no-repeat center right/cover;
+  margin-top: -93px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .heading {
+  font-size: 35px;
+  color: #1fa6a6;
+  font-weight: 700;
+}
+
+.footer li{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer li span {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.footer .copyright {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  padding-top: 30px;
+}
+/* ===//end of footer part === */
